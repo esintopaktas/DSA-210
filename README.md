@@ -1,61 +1,73 @@
 # DSA210-Term-Project
+I am a student from Sabancı University, Elife Esin Topaktaş, and this is my DSA210 term project. The aim of this project is to analyze the impact of wage growth on access to health insurance in the USA, specifically between the years 2000 and 2019.
 
-I am a student from Sabancı University, Elife Esin Topaktaş, and this is my DSA210 term project. The aim of this project is to analyze the impact of wage growth on access to health insurance in the USA, specifically between the years 1979 and 2019. 
 
-## Topic Overview
 
-This project explores how wage growth (both median and average hourly wages) has influenced health insurance coverage over time. Historically, many workers' ability to afford or access employer-sponsored health insurance has been closely tied to wage levels. This analysis will investigate how periods of stagnant wage growth, particularly for low- and middle-income workers, correlate with a decline in health insurance coverage.
+## **Contents** 
 
-**Key Focus**:  
-The primary focus of the analysis is to examine whether periods of stagnant wage growth coincide with decreases in the percentage of people with health insurance, particularly employer-sponsored coverage. This includes analyzing trends in both median and average wages, as well as health insurance coverage data across various demographic groups.
+- [Motivation](#motivation)  
+- [Project Goal](#project-goal)  
+- [Data Sources](#data-sources)  
+- [Data Collection Process](#data-collection-process) 
+---
+
+## **Motivation**  
+
+For many people; wage stagnation has meant more than just financial struggles, it has made it harder to access basic needs like healthcare. As wages have stayed the same or even decreased over time, many individuals, especially from lower income backgrounds, have found it difficult to afford health insurance. This project aims to understand how wage growth or the lack of it has affected health insurance coverage. Ultimately, it’s about recognizing that everyone should have access to healthcare, no matter their income. This is a global issue, reflecting the bigger fight for fairness and equal access to essential resources.
 
 ---
 
-## Contents
+## **Project Goal**  
 
-- [Motivation](#motivation)
-- [Project Goal](#project-goal)
-- [Data Sources and Preprocessing](#data-sources-and-preprocessing)
+The goal of this project is to analyze the relationship between wage growth and health insurance coverage in the United States from 2000 to 2019, with a focus on racial and gender disparities. This analysis aims to:
 
+- Examine how changes in median and average hourly wages have affected health insurance coverage rates over time, particularly for Black, Hispanic, and female workers.
+- Identify periods of wage stagnation and investigate whether they coincide with declines in health insurance coverage among historically marginalized groups.
+- Explore socio-economic factors (such as race, gender, and income inequality) that may contribute to disparities in healthcare access.
 
-
----
-
-## Motivation
-
-In recent decades, there has been significant discussion around wage growth and its impact on people's access to essential services, including healthcare. As wages have stagnated, especially among low- and middle-income workers, many people have lost access to employer-sponsored health insurance. This project aims to investigate the extent to which wage growth (or lack thereof) affects health insurance coverage, which is vital for the well-being of individuals and families. By exploring this relationship, we hope to understand how economic factors influence public health outcomes and healthcare access in the United States.
+By highlighting these trends, this project seeks to provide insights into the broader impact of economic inequality on healthcare access in the United States.
 
 ---
 
-## Project Goal
+## **Data Sources**   
 
-The goal of this project is to analyze the relationship between wage growth and health insurance coverage in the United States from 1979 to 2019. Through this analysis, we aim to:
+This project uses publicly available datasets from Kaggle (https://www.kaggle.com) to analyze the relationship between wage growth and health insurance coverage. The data sources are as follows:
 
-1. Examine how changes in both median and average hourly wages have affected health insurance coverage rates over time.
-2. Identify periods of wage stagnation and explore if they coincide with declines in access to employer-sponsored health insurance.
-3. Investigate other socio-economic factors that may contribute to these trends.
+### 1. Wage Data (1973-2022)  
+This dataset provides median and average hourly wage information in the USA from 1973 to 2022. It includes data on wage growth across different income groups and time periods.
+https://www.kaggle.com/datasets/asaniczka/median-and-avg-hourly-wages-in-the-usa-1973-2022
 
----
-
-## Data Sources and Preprocessing
-
-This project uses publicly available datasets from Kaggle to analyze the relationship between wage growth and health insurance coverage. The data sources and preprocessing steps are as follows:
-
-1. **Health Insurance Coverage Data**  
-   - The dataset includes health insurance coverage statistics for different types of insurance (e.g., employer-sponsored, public health insurance, and private insurance) across various U.S. states from 1979 to 2019.
-   
-2. **Wage Data**  
-   - The dataset provides median and average hourly wage information in the USA from 1973 to 2022. It includes data on wage growth across different income groups and time periods.
-
-### Preprocessing Steps:
-- **Cleaning Data**: Any missing or inconsistent data points are handled using imputation or removal methods.
-- **Data Transformation**: The data is formatted into a structured format, and relevant columns are selected for analysis.
-- **Normalization**: The wage data and health insurance coverage rates are normalized to ensure consistency in comparisons over time.
-  
-These datasets will be merged by year and analyzed to explore correlations.
+| Year | Median Wage | Average Wage | Men Median | Men Average | Women Median | Women Average | White Median | White Average | Black Median |
+|------|------------|--------------|------------|-------------|--------------|--------------|--------------|--------------|--------------|
+| 1973 | ...        | ...          | ...        | ...         | ...          | ...          | ...          | ...          | ...          |
+| 1974 | ...        | ...          | ...        | ...         | ...          | ...          | ...          | ...          | ...          |
+| 1975 | ...        | ...          | ...        | ...         | ...          | ...          | ...          | ...          | ...          |
+| ...  | ...        | ...          | ...        | ...         | ...          | ...          | ...          | ...          | ...          |
+| 2022 | ...        | ...          | ...        | ...         | ...          | ...          | ...          | ...          | ...          |
 
 ---
 
+### 2. Health Insurance Coverage Data (1979-2019)  
+This dataset includes health insurance coverage statistics across various racial and gender groups in the United States from 1979 to 2019.https://www.kaggle.com/datasets/asaniczka/health-insurance-coverage-in-the-usa-1979-2019
 
+| Year | All | White | Black | Hispanic | Men | White Men | Black Men | Hispanic Men | Women |
+|------|-----|-------|-------|----------|-----|-----------|-----------|--------------|-------|
+| 1979 | ... | ...   | ...   | ...      | ... | ...       | ...       | ...          | ...   |
+| 1980 | ... | ...   | ...   | ...      | ... | ...       | ...       | ...          | ...   |
+| 1981 | ... | ...   | ...   | ...      | ... | ...       | ...       | ...          | ...   |
+| ...  | ... | ...   | ...   | ...      | ... | ...       | ...       | ...          | ...   |
+| 2019 | ... | ...   | ...   | ...      | ... | ...       | ...       | ...          | ...   |
 
+---
+## **Data Collection Process**
+
+The data collection process includes the following steps:
+
+1. **Identifying Sources:** Relevant and reliable official institutions' websites that provide data directly related to the research topic were identified.
+
+2. **Data Downloading:** Data for the relevant years were downloaded from the specified websites. The data is typically in CSV or Excel format and organized on an annual basis.
+
+3. **Data Integration:** Data related to wages, health insurance coverage, and socio-economic factors were merged using common keys (e.g., year, age group, racial/ethnic group).
+
+4. **Preparation for Analysis:** The integrated data was transformed into appropriate formats for statistical analysis and visualizations.
 
