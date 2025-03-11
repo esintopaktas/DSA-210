@@ -1,6 +1,6 @@
 # DSA210-Term-Project
 
-I am a student from Sabancı University, Ada Dila Akbulut, and this is my DSA210 term project. The aim of this project is to analyze the impact of wage growth on access to health insurance in the USA, specifically between the years 1979 and 2019. 
+I am a student from Sabancı University, Elife Esin Topaktaş, and this is my DSA210 term project. The aim of this project is to analyze the impact of wage growth on access to health insurance in the USA, specifically between the years 1979 and 2019. 
 
 ## Topic Overview
 
@@ -16,10 +16,8 @@ The primary focus of the analysis is to examine whether periods of stagnant wage
 - [Motivation](#motivation)
 - [Project Goal](#project-goal)
 - [Data Sources and Preprocessing](#data-sources-and-preprocessing)
-- [Data Analysis](#data-analysis)
-- [Findings](#findings)
-- [Hypothesis Testing](#hypothesis-testing)
-- [Limitations and Future Work](#limitations-and-future-work)
+
+
 
 ---
 
@@ -58,58 +56,6 @@ These datasets will be merged by year and analyzed to explore correlations.
 
 ---
 
-## Data Analysis
 
-1. **Data Preprocessing**  
-   The data preprocessing includes:
-   - Merging wage data and health insurance data by year to track the changes in wage growth and health insurance coverage over time.
-   - Handling missing data and outliers to ensure the dataset is clean for analysis.
-   
-2. **Exploratory Data Analysis (EDA)**  
-   - Descriptive statistics will be used to explore key metrics such as average wages and health insurance coverage.
-   - Trends in health insurance coverage rates will be visualized over the course of the selected years.
-   
-3. **Correlation Analysis**  
-   - A correlation analysis will be conducted to assess the relationship between wage growth and health insurance coverage rates.
-   - We will test whether stagnant wage growth periods align with decreases in health insurance coverage.
-   
-4. **Visualization**  
-   - Various types of visualizations (line charts, bar charts, scatter plots) will be used to display trends in health insurance coverage and wage growth.
-   - These visualizations will help identify patterns and provide clear insights into the data.
 
----
 
-## Findings
-
-Based on preliminary analysis, we expect to find that:
-
-- **Wage Stagnation**: During periods of stagnant wage growth (e.g., the 1980s and early 2000s), there may be a corresponding decline in employer-sponsored health insurance coverage, particularly among low- and middle-income workers.
-- **Shifting Health Insurance Landscape**: As wages stagnated, there could be a greater reliance on public health insurance programs like Medicaid, especially after the 2008 financial crisis.
-- **Economic Disparities**: The disparity in wage growth across income groups may be linked to the widening gap in access to health insurance.
-
----
-
-## Hypothesis Testing
-
-This analysis will test the following hypotheses:
-
-- **First Hypothesis**: During periods of stagnant wage growth, access to employer-sponsored health insurance decreases, especially among low- and middle-income workers.
-- **Second Hypothesis**: Periods of strong wage growth are associated with an increase in health insurance coverage, particularly employer-sponsored insurance.
-
-Statistical tests, including correlation analysis and regression models, will be used to test these hypotheses.
-
----
-
-## Limitations and Future Work
-
-### Limitations:
-- **Data Availability**: The available datasets are limited to health insurance coverage and wage data; other socio-economic factors (e.g., unemployment rates, changes in healthcare policies) are not included but may also influence the outcomes.
-- **Causality**: While correlations between wage growth and health insurance coverage can be observed, establishing direct causality requires a more complex analysis, which is beyond the scope of this project.
-
-### Future Work:
-- A more comprehensive model that includes other factors (e.g., healthcare policies, unemployment rates) could provide deeper insights into the determinants of health insurance coverage.
-- A regional analysis could be conducted to examine how different states' wage growth affects health insurance coverage due to varying state-level policies.
-
----
-
-This project aims to shed light on the complex relationship between wage growth and health insurance coverage, contributing valuable insights into how economic factors shape access to healthcare in the United States.
