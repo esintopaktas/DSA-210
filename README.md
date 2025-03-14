@@ -36,6 +36,7 @@ This project uses publicly available datasets from Kaggle (https://www.kaggle.co
 ### 1. Wage Data (1973-2022)  
 This dataset provides median and average hourly wage information in the USA from 1973 to 2022. It includes data on wage growth across different income groups and time periods.
 https://www.kaggle.com/datasets/asaniczka/median-and-avg-hourly-wages-in-the-usa-1973-2022
+Link to access data: [https://github.com/esintopaktas/DSA-210/blob/main/median_average_wages.csv]
 
 | Year | Median Wage | Average Wage | Men Median | Men Average | Women Median | Women Average | White Median | White Average | Black Median |
 |------|------------|--------------|------------|-------------|--------------|--------------|--------------|--------------|--------------|
@@ -49,6 +50,7 @@ https://www.kaggle.com/datasets/asaniczka/median-and-avg-hourly-wages-in-the-usa
 
 ### 2. Health Insurance Coverage Data (1979-2019)  
 This dataset includes health insurance coverage statistics across various racial and gender groups in the United States from 1979 to 2019.https://www.kaggle.com/datasets/asaniczka/health-insurance-coverage-in-the-usa-1979-2019
+Link to access data: [https://github.com/esintopaktas/DSA-210/blob/main/health_insurance_coverage.csv]
 
 | Year | All | White | Black | Hispanic | Men | White Men | Black Men | Hispanic Men | Women |
 |------|-----|-------|-------|----------|-----|-----------|-----------|--------------|-------|
