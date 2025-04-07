@@ -69,7 +69,3 @@ The data collection process includes the following steps:
 
 2. **Data Downloading:** Data for the relevant years were downloaded from the specified websites. The data is typically in CSV or Excel format and organized on an annual basis.
 
-3. **Data Integration:** Data related to wages, health insurance coverage, and socio-economic factors were merged using common keys (e.g., year, age group, racial/ethnic group).
-
-4. **Preparation for Analysis:** The integrated data was transformed into appropriate formats for statistical analysis and visualizations.
-
