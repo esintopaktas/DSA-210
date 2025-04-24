@@ -1,5 +1,9 @@
 # DSA210-Term-Project
 I am a student from Sabancı University, Elife Esin Topaktaş, and this is my DSA210 term project. The aim of this project is to analyze the impact of wage growth on access to health insurance in the USA, specifically between the years 2000 and 2019.
+These two hypotheses will be tested:
+## **Hypothesis**
+- First Hypothesis: There is a more directly propotional relationship for men ,in comparison to women, between hourly wages and health insurance coverage.
+- Second Hypothesis:  There is a more directly propotional relationship for white men ,in comparison to black men, between hourly wages and health insurance coverage.
 
 
 
@@ -21,9 +25,9 @@ For many people; wage stagnation has meant more than just financial struggles, i
 
 The goal of this project is to analyze the relationship between wage growth and health insurance coverage in the United States from 2000 to 2019, with a focus on racial and gender disparities. This analysis aims to:
 
-- Examine how changes in median and average hourly wages have affected health insurance coverage rates over time, particularly for Black, Hispanic, and female workers.
-- Identify periods of wage stagnation and investigate whether they coincide with declines in health insurance coverage among historically marginalized groups.
-- Explore socio-economic factors (such as race, gender, and income inequality) that may contribute to disparities in healthcare access.
+- Examine how changes in median and average hourly wages have affected health insurance coverage rates over time, and compare them based on race and gender differences.
+- Identify periods of wage stagnation and investigate whether they coincide with declines in health insurance coverage.
+- Explore socio-economic factors (such as race, gender) that may contribute to disparities in healthcare access.
 
 By highlighting these trends, this project seeks to provide insights into the broader impact of economic inequality on healthcare access in the United States.
 
@@ -68,4 +72,9 @@ The data collection process includes the following steps:
 1. **Identifying Sources:** Relevant and reliable official institutions' websites that provide data directly related to the research topic were identified.
 
 2. **Data Downloading:** Data for the relevant years were downloaded from the specified websites. The data is typically in CSV or Excel format and organized on an annual basis.
+
+3. **Data Integration:** Data related to wages, health insurance coverage, and socio-economic factors were merged using common keys (e.g., year, age group, racial/ethnic group).
+
+4. **Preparation for Analysis:** The integrated data was transformed into appropriate formats for statistical analysis and visualizations.
+
 
