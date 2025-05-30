@@ -165,5 +165,28 @@ These visual tools allowed for a clear and interpretable comparison of wage and 
   
 
 **Note:** AI tools such as ChatGPT and Gemini were used during data cleaning, visualization, and statistical testing phases of this project.
+##Future Works
+
+- Extend the analysis using **multivariable regression models** to include additional socioeconomic factors such as education level, geographic location, or industry.
+- Apply **causal inference techniques** (e.g., difference-in-differences, instrumental variables) to explore the direct effect of wage changes on health insurance coverage.
+- Include data beyond 2019 to assess **post-pandemic shifts** in wage structure and healthcare access.
+- Investigate the impact of **policy changes** (e.g., Affordable Care Act) on specific demographic groups.
+- Utilize **interactive dashboards** (e.g., Plotly, Dash) for more dynamic exploration of trends and gaps.
+## Future Works
+
+- Extend the analysis using **multivariable regression models** to include additional socioeconomic factors such as education level, geographic location, or industry.
+- Apply **causal inference techniques** (e.g., difference-in-differences, instrumental variables) to explore the direct effect of wage changes on health insurance coverage.
+- Include data beyond 2019 to assess **post-pandemic shifts** in wage structure and healthcare access.
+- Investigate the impact of **policy changes** (e.g., Affordable Care Act) on specific demographic groups.
+- Utilize **interactive dashboards** (e.g., Plotly, Dash) for more dynamic exploration of trends and gaps.
+
+
+## Limitations
+
+- The proxy metric used (wage - insurance) may oversimplify the actual correlation between income and healthcare access.
+- The analysis assumes a **linear and direct** relationship between wage and insurance coverage, which may not capture deeper structural factors.
+- Only **annual average data** was used; more granular data (monthly, by state or occupation) could yield richer insights.
+- The dataset does not account for **non-monetary factors** influencing insurance coverage, such as employer benefits or public aid.
+- Statistical tests were conducted under **normality and independence assumptions**, which may not fully hold in real-world data.
 
 
