@@ -162,6 +162,7 @@ These visual tools allowed for a clear and interpretable comparison of wage and 
 - Significant at α = 0.05? No  
 - Result: There is no strong evidence that the correlation between average hourly wages and health insurance coverage is stronger for White men compared to Black men.
 ###- Conclusion: Although numerical differences in wages and insurance exist between men and women, statistically these do not support the claim that men benefit from a stronger correlation between rising wages and increased insurance access.
+  
 
 **Note:** AI tools such as ChatGPT and Gemini were used during data cleaning, visualization, and statistical testing phases of this project.
 
