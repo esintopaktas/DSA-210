@@ -165,13 +165,7 @@ These visual tools allowed for a clear and interpretable comparison of wage and 
   
 
 **Note:** AI tools such as ChatGPT and Gemini were used during data cleaning, visualization, and statistical testing phases of this project.
-##Future Works
 
-- Extend the analysis using **multivariable regression models** to include additional socioeconomic factors such as education level, geographic location, or industry.
-- Apply **causal inference techniques** (e.g., difference-in-differences, instrumental variables) to explore the direct effect of wage changes on health insurance coverage.
-- Include data beyond 2019 to assess **post-pandemic shifts** in wage structure and healthcare access.
-- Investigate the impact of **policy changes** (e.g., Affordable Care Act) on specific demographic groups.
-- Utilize **interactive dashboards** (e.g., Plotly, Dash) for more dynamic exploration of trends and gaps.
 ## Future Works
 
 - Extend the analysis using **multivariable regression models** to include additional socioeconomic factors such as education level, geographic location, or industry.
